@@ -8,10 +8,12 @@ h1,h2 {
 }
 
 h1 {
-	border-bottom: 1px solid #aaa;
-	background-color: #3b3b3b;
-	color: #ddd;
+	-- border-bottom: 1px solid #aaa;
+	-- background-color: #3b3b3b;
+	text-justify: auto ;
+	color: whitesmoke;
 	padding: 2px;	
+	text-align:center;
 }
 
 h2 {
@@ -21,14 +23,16 @@ h2 {
 	padding-left: 5px;
 	margin: 0 0 0 -15px;
 	font-weight: normal;
+	
 }
 h3 {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-	font-style: bold;
+	font-style: oblique;
 	padding-left: 5px;
 	margin: 0 0 0 -15px;
 	font-weight: normal;
+	
 }
 h4 {
 	border-top: 1px solid #ccc;
@@ -39,8 +43,12 @@ h4 {
 }
 
 .secao {
-	background-color: #eee;
+	background-color: azure;
 	padding-left: 15px;
+}
+.fundo {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 91%);
 }
 
 .arredonda{
