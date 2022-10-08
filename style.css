@@ -1,33 +1,28 @@
 body {
 	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	background-color: rgb(243, 239, 239);
 	color: #3b3b3b;
+	text-align:center;	
+	margin: auto;
 }
 
-h1, h2 {
-	font-family: Georgia;
-	font-size: xx-large;
-	color: rgb(8, 8, 8);
-	text-align:center;	
-}
 
 h1 {
-	--border-bottom: 1px solid #aaa;
-	--background-color: #3b3b3b;
+	font-family: Georgia;
+	font-size: xx-large;	
 	text-justify: center ;
-	color: whitesmoke;
+	color: rgba(2, 2, 2, 0.938);
 	padding: 2px;	
 	text-align:center;
 }
 
-.secao {
-	background-color: aliceblue;
-	padding-left: 15px;
-	contain-intrinsic-size: unset;
-	text-align:center;	
-}
-.fundo {
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 71%);
+h2 {
+	font-family: Georgia;
+	font-size: x-large;	
+	text-justify: center ;
+	color: rgba(2, 2, 2, 0.938);
+	padding: 2px;	
+	text-align:center;
 }
 .paragrafo{
 	font:700;
